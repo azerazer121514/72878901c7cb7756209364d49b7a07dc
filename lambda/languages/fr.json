@@ -1,0 +1,61 @@
+{
+    "SKILL_NAME": "activer",
+    "WELCOME": [
+      "Mode {}"
+    ],
+    "WELCOME_REPROMPT": [
+      "Mode {}"
+    ],
+    "GET_choix_CONFIRMED": [
+    "Le {}, il y aura en entrée {}, et commme plat {}, et pour finir commme dessert nous aurons {}.",
+    "Je pense que le {}, il y aura en entrée {}, et pour le plat {}, et pour finir en dessert nous aurons {}.",
+    "Je dirai que le {}, il y aura en entrée {}, et en plat {}, et pour finir commme dessert nous aurons {}.",
+    "Hum le {}, il y aura en entrée {}, et commme plat {}, et pour le dessert nous aurons {}.",
+    "Le {}, il y aura en entrée {}, et en le plat {}, et en dessert nous aurons {}.",
+    "Au menu du {}, en entrée {}, en plat principal {} et en dessert {}.",
+    "Pour {}, en entrée {}, nous aurons ensuite {} en plat principal et en dessert {}.",
+    "En prévision du {}, voici ce qui sera servi : {} en entrée, {} en plat principal et {} en dessert.",
+    "Pour le {}, en entrée {}, le plat principal sera {} et le dessert {}.",
+    "Préparez vos papilles pour le {} avec une entrée de {}, un plat principal de {} et en dessert, {}.",
+    "Le {} débutera avec {}, suivi de {} en plat principal et enfin {} pour le dessert.",
+    "Pour notre {} nous dégusterons {}, suivi de {} pour le plat principal et en dessert, {}.",
+    "En entrée {}, en plat principal {} et en dessert {} pour le {}.",
+    "Le repas de {} sera composé de {}, {} et {} pour le dessert.",
+    "{} sera accompagné de {}, {} et {} pour le dessert."
+    ],
+    "GET_choix_REPROMPT_CONFIRMED": [
+      "Vous voulez savoir autre chose ?",
+      "Vous pouvez dir, Alexa arrête"
+    ],
+    "GET_choix_UNCONFIRMED": [
+      "Désolé, je n'ai pas compris.",
+      "Essayer de dir, lundi suivi de matin, midi ou soir",
+      "vous pouvez de dir, mardi suivi de matin, midi ou soir"
+    ],
+    "GET_choix_REPROMPT_UNCONFIRMED": [
+      "Vous voulez savoir autre chose ?",
+      "Vous pouvez aussi dir, Alexa arrête"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+    "Au revoir.",
+    "Bye.",
+    "Salut.",
+    "À bientôt.",
+    "À la prochaine.",
+    "À plus tard.",
+    "Ok. Je serai là si vous avez besoin de moi.",
+    "Ok, je suis là si besoin.",
+    "Pas de souci, je suis dispo.",
+    "Entendu, j'arrive si besoin.",
+    "Tout va bien, je suis là pour vous aider.",
+    "Ok, à plus tard.",
+    "Ok, à plus.",
+    "À plus.",
+    "À bientôt.",
+    "À tout à l'heure.",
+    "Bonne journée.",
+    "À tout de suite."
+    ],
+    "ERROR": "Désolé, je n'ai pas pu répondre à votre dernière demande. Pourriez-vous la redire ?",
+    "ERROR_REPROMPT": "Pourriez vous la redire ?"
+}

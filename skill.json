@@ -1,0 +1,84 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:433552678023:function:ba7c8c26-d341-4339-ad84-c6932e327d7a:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:433552678023:function:ba7c8c26-d341-4339-ad84-c6932e327d7a:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:433552678023:function:ba7c8c26-d341-4339-ad84-c6932e327d7a:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:433552678023:function:ba7c8c26-d341-4339-ad84-c6932e327d7a:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {},
+        "fr-FR": {}
+      }
+    },
+    "publishingInformation": {
+      "distributionCountries": [
+        "US"
+      ],
+      "isAvailableWorldwide": false,
+      "locales": {
+        "en-US": {
+          "customProductPrompts": {
+            "purchaseConfirmationDescription": "0.99 $ USD/mois, ou contactez moi pour récupérer le projet gratuitement à l\u0027adresse val.cph4@gmail.com",
+            "purchasePromptDescription": "Ce Skill Alexa est un mélange d\u0027Ultron et ChatGPT, il utilise des API, c\u0027est pourquoi il est payant"
+          },
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "UltronChatGpt",
+          "summary": "Sample Short Description"
+        },
+        "fr-FR": {
+          "examplePhrases": [],
+          "keywords": [],
+          "name": "UltronChatGpt"
+        }
+      },
+      "paidSkillInformation": {
+        "pricing": {
+          "amazon.com": [
+            {
+              "currency": "USD",
+              "offerType": "SUBSCRIPTION",
+              "price": 0.99,
+              "subscriptionInformation": {
+                "subscriptionPaymentFrequency": "MONTHLY"
+              }
+            }
+          ]
+        },
+        "taxInformation": {
+          "category": "INFORMATION_SERVICES"
+        }
+      },
+      "testingInstructions": "Prononcer \"Ok ok ok\", pour activer le mod."
+    }
+  }
+}

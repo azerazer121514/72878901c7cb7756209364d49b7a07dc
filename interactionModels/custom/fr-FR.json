@@ -1,0 +1,243 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "GptQueryIntent",
+          "samples": [
+            " {query}"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "choix",
+              "type": "choix"
+            }
+          ],
+          "name": "GetchoixIntent",
+          "samples": [
+            "que mangeons nous le {choix}",
+            "que mangeons nous ce {choix}",
+            "qu\u0027est ce que l\u0027on mange le {choix}",
+            "dis moi ce que l\u0027on mange {choix}",
+            "qu\u0027est ce que l\u0027on mange ce {choix}",
+            "qu\u0027est ce que l\u0027on mange {choix} ",
+            "Que mangeons-nous le {choix}",
+            "Que mangeons-nous ce {choix}",
+            "Qu\u0027est-ce que l\u0027on mange le {choix}",
+            "Dis-moi ce que l\u0027on mange {choix}",
+            "{choix}",
+            "En mange quoi ce {choix}",
+            "Qu\u0027est-ce que l\u0027on mange ce {choix}",
+            "Qu\u0027est-ce que l\u0027on mange {choix}",
+            "En mange quoi {choix}",
+            "Le {choix}",
+            "Quel est le repas du {choix}",
+            "Que prévoyons-nous de manger {choix}",
+            "Le menu du {choix} c\u0027est quoi",
+            "Pour le dîner de ce {choix} que mange-t-on",
+            "Que mettre dans notre assiette pour le dîner de {choix}",
+            "Le repas de {choix} quel est-il",
+            "Qu\u0027est-ce qu\u0027on a prévu de manger pour le dîner de {choix}",
+            "À quoi est-ce qu\u0027on peut s\u0027attendre pour le repas de {choix}",
+            "Est-ce que tu sais ce qu\u0027on mange {choix}",
+            "Peux-tu me dire ce qu\u0027on prévoit de manger {choix}",
+            "Pour le repas de {choix} qu\u0027est-ce qu\u0027on a au menu",
+            "On mange quoi ce soir-là",
+            "{choix} qu\u0027est-ce qu\u0027on mange",
+            "Quel est le plat prévu pour le dîner de {choix}",
+            "Pour le repas du {choix} qu\u0027est-ce qu\u0027on a prévu de cuisiner",
+            "As-tu une idée de ce qu\u0027on va manger pour le dîner de {choix}",
+            "Quel est le choix de plat pour le dîner de {choix}",
+            "Que faut-il prévoir pour le dîner de {choix}",
+            "{choix} quel est le menu",
+            "Qu\u0027est-ce qu\u0027on peut se mettre sous la dent pour le repas de {choix}",
+            "Pour le dîner de {choix} qu\u0027est-ce qu\u0027on peut manger",
+            "Quel est le plat principal pour le dîner de {choix}",
+            "Que peut-on avoir comme option de repas pour le dîner de {choix}",
+            "Quelle est notre option de dîner pour le {choix}",
+            "Qu\u0027est-ce qu\u0027on mange habituellement le {choix}",
+            "Le {choix} est-ce qu\u0027on a un plat spécial",
+            "Pour le repas de {choix} quel est le plat du jour",
+            "Quel est le choix de viande pour le dîner de {choix}",
+            "{choix} qu\u0027est-ce qui est prévu au menu",
+            "Qu\u0027est-ce qu\u0027on peut cuisiner pour le dîner de {choix}",
+            "Y a-t-il des ingrédients particuliers pour le dîner de {choix}",
+            "Pour le {choix} est-ce qu\u0027on a un thème culinaire",
+            "Quel est le plat le plus populaire pour le dîner du {choix}",
+            "Qu\u0027est-ce qu\u0027on a l\u0027habitude de manger le {choix}",
+            "Est-ce qu\u0027on a déjà prévu le repas de {choix}",
+            "Pour le dîner de {choix} quelles sont les options végétariennes",
+            "Le {choix} qu\u0027est-ce qu\u0027on peut se préparer rapidement",
+            "Quel est le plat recommandé pour le dîner de {choix}",
+            "Qu\u0027est-ce qu\u0027on peut prévoir comme accompagnement pour le dîner de {choix}",
+            "Pour le repas de {choix} quels sont les choix de dessert",
+            "Y a-t-il des plats de saison pour le dîner de {choix}",
+            "Menu du {choix}",
+            "Prévu pour le dîner de {choix}",
+            "On mange quoi ce {choix}",
+            "Quel est le plat pour {choix}",
+            "Dîner de {choix} c\u0027est quoi",
+            "Restrictions alimentaires pour {choix}",
+            "Plat principal pour le dîner de {choix}",
+            "Choix de dessert pour le repas de {choix}",
+            "Plats de saison pour le dîner de {choix}",
+            "Que mange-t-on le {choix}",
+            "Qu\u0027est-ce qu\u0027on prévoit de manger ce {choix}",
+            "Le menu du {choix}",
+            "{choix} on mange quoi",
+            "Quel est le plat pour le dîner de {choix}",
+            "Le dîner de {choix} c\u0027est quoi",
+            "Qu\u0027est-ce qu\u0027on a prévu de cuisiner pour le repas de {choix}",
+            "Quel est le choix de légumes pour le dîner de {choix}",
+            "Les options végétariennes pour le dîner de {choix}",
+            "Le plat principal pour le dîner de {choix}",
+            "Quels sont les choix de dessert pour le repas de {choix}",
+            "Y a-t-il des restrictions alimentaires pour le dîner de {choix}",
+            "Quoi manger {choix}",
+            "Dis-moi le menu de {choix}",
+            "Qu\u0027est-ce qu\u0027on mange {choix}",
+            "Le repas de {choix} c\u0027est quoi",
+            "Pour le dîner de {choix} qu\u0027est-ce qu\u0027on peut cuisiner rapidement"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "dimanche soir"
+              }
+            },
+            {
+              "name": {
+                "value": "samedi soir"
+              }
+            },
+            {
+              "name": {
+                "value": "vendredi soir"
+              }
+            },
+            {
+              "name": {
+                "value": "jeudi soir"
+              }
+            },
+            {
+              "name": {
+                "value": "mercredi soir"
+              }
+            },
+            {
+              "name": {
+                "value": "mardi soir"
+              }
+            },
+            {
+              "name": {
+                "value": "lundi soir"
+              }
+            },
+            {
+              "name": {
+                "value": "dimanche midi"
+              }
+            },
+            {
+              "name": {
+                "value": "samedi midi"
+              }
+            },
+            {
+              "name": {
+                "value": "vendredi midi"
+              }
+            },
+            {
+              "name": {
+                "value": "jeudi midi"
+              }
+            },
+            {
+              "name": {
+                "value": "mercredi midi"
+              }
+            },
+            {
+              "name": {
+                "value": "mardi midi"
+              }
+            },
+            {
+              "name": {
+                "value": "lundi midi"
+              }
+            },
+            {
+              "name": {
+                "value": "dimanche matin"
+              }
+            },
+            {
+              "name": {
+                "value": "samedi matin"
+              }
+            },
+            {
+              "name": {
+                "value": "vendredi matin"
+              }
+            },
+            {
+              "name": {
+                "value": "jeudi matin"
+              }
+            },
+            {
+              "name": {
+                "value": "mercredi matin"
+              }
+            },
+            {
+              "name": {
+                "value": "mardi matin"
+              }
+            },
+            {
+              "name": {
+                "value": "lundi matin"
+              }
+            }
+          ],
+          "name": "choix"
+        }
+      ],
+      "invocationName": "ok ok ok"
+    }
+  }
+}
